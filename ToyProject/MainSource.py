@@ -1,7 +1,14 @@
-import subway
+import subway #각 사람들의 일상을 엿볼 수 있도록
+              #버스, 택시, 집 추가해야함
 
 class people:
     speed = 4
+    money = 0
+
+class car:
+    speed = 80
+
+
 
 sb = subway.subway()
 
